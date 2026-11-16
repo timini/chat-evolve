@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "declaration": false,
+    "noEmit": true
+  },
+  "include": ["src", "vitest.setup.ts", ".storybook"],
+  "exclude": ["node_modules", "dist", "storybook-static"]
+}

@@ -1,0 +1,48 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# build outputs
+dist/
+.next/
+out/
+storybook-static/
+*.tsbuildinfo
+
+# turbo
+.turbo/
+
+# test
+coverage/
+
+# next
+.next/
+next-env.d.ts
+
+# terraform
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+infra/terraform/crash.log
+infra/terraform/*.tfvars
+!infra/terraform/example.tfvars
+
+# firebase
+.firebase/
+firebase-debug.log
+*-debug.log
+
+# env
+.env
+.env.*
+!.env.example
+
+# os / editor
+.DS_Store
+*.local
+.vscode/
+.idea/
+
+# playwright (storybook test browsers metadata)
+test-results/
+playwright-report/
