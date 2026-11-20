@@ -46,3 +46,6 @@ firebase-debug.log
 # playwright (storybook test browsers metadata)
 test-results/
 playwright-report/
+
+# Public GA build settings only.
+!apps/web/.env.production

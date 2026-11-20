@@ -1,3 +1,4 @@
+import { Analytics } from "./analytics";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <div id="app-root">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
